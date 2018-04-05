@@ -5,6 +5,11 @@ A simple starter map sample project to get you started with Mapfit maps!
 
 For further documentation, please visit our [Javascript](https://mapfit.com/developers/javascript) page.
 
+## Samples
+[Single Point Map](https://github.com/mapfit/starter-map-web-sample/blob/master/single-point-map-example.html) - A simple example showing how you can place a marker on a map using either lat/lng coordinates or a geocoded address.
+
+More samples coming soon
+
 ## Setup your map
 You must declare the following stylesheets and scripts on your page to successfully render your maps.
 ```html
@@ -49,7 +54,7 @@ myLatLngMarker.setPlaceInfo(placeInfo);
 
 
 ##### ADD A MARKER CALLED "myAddressMarker" VIA GEOCODER
-Note: All geocoder related requests require an API KEY.
+Note: All geocoder related requests require an API KEY. Visit our [Get Started](https://mapfit.com/getstarted) page to get yours today.
 ```js
 myAddressMarker = mapfit.Marker()
 myAddressMarker.address = "119 West 24th street, New York, NY, 11001"
@@ -73,7 +78,3 @@ myLatLngMarker.on('click', function(e) {
   console.log('marker click')
 })
 ```
-
-## License
-Copyright (c) 2018 Mapfit, Inc.
-All Rights Reserved.

@@ -3,6 +3,8 @@
 # Starter Map for Web
 A simple starter map sample project to get you started with Mapfit maps!
 
+For further documentation, please visit our [Javascript](https://mapfit.com/developers/javascript) page.
+
 ## Setup your map
 You must declare the following stylesheets and scripts on your page to successfully render your maps.
 ```html

@@ -28,8 +28,8 @@
     myAddressMarker.address = "119 West 24th street, New York, NY, 11001"
     map.addMarker(myAddressMarker);
 
-    // Center the map on main marker coordinates
-    map.setCenter([40.744182, -73.993205]);
+    // Center the map using the address of your marker
+    map.setCenter(myAddressMarker.address);
 
   </script>
 </body>

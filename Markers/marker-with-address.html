@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Marker with address | Mapfit</title>
+  <link href="http://cdn.mapfit.com/v2-2/assets/css/mapfit.css" rel='stylesheet' />
+</head>
+
+<body>
+  <div id="mapfit" style="width: 100%; height: 800px;"></div>
+
+  <script src="https://cdn.mapfit.com/v2-2/assets/js/tetragon.js"></script>
+  <script src="http://cdn.mapfit.com/v2-2/assets/js/mapfit.js"></script>
+  <script>
+
+    // ADD YOUR API KEY HERE
+    mapfit.apikey = "YOUR_API_KEY";
+
+    // DRAW YOUR MAP
+    let map = mapfit.MapView('mapfit', {theme: 'day'});
+    map.drawMap();
+
+    // Add a marker with a street address - Make sure to include your API KEY above for this to work
+    myAddressMarker = mapfit.Marker()
+    myAddressMarker.address = "119 West 24th street, New York, NY, 11001"
+    map.addMarker(myAddressMarker);
+
+    // Center the map on main marker coordinates
+    map.setCenter([40.744182, -73.993205]);
+
+  </script>
+</body>
+
+</html>

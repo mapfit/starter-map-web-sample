@@ -78,3 +78,7 @@ myLatLngMarker.on('click', function(e) {
   console.log('marker click')
 })
 ```
+
+## License
+Copyright (c) 2018 Mapfit, Inc.
+All Rights Reserved.

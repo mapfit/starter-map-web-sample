@@ -13,9 +13,9 @@ More samples coming soon
 ## Setup your map
 You must declare the following stylesheets and scripts on your page to successfully render your maps.
 ```html
-<link href="http://cdn.mapfit.com/v2-3/assets/css/mapfit.css" rel='stylesheet' />
-<script src="https://cdn.mapfit.com/v2-3/assets/js/tetragon.js"></script>
-<script src="http://cdn.mapfit.com/v2-3/assets/js/mapfit.js"></script>
+<link href="http://cdn.mapfit.com/v2-4/assets/css/mapfit.css" rel='stylesheet' />
+<script src="https://cdn.mapfit.com/v2-4/assets/js/tetragon.js"></script>
+<script src="http://cdn.mapfit.com/v2-4/assets/js/mapfit.js"></script>
 ```
 
 Next you must initiate the map so that you can customize and add markers to it.
@@ -65,7 +65,7 @@ map.addMarker(myAddressMarker);
 ##### SET A CUSTOM ICON FOR A MARKER
 ```js
 let myCustomIcon = mapfit.Icon();
-myCustomIcon.setIconUrl('http://cdn.mapfit.com/v2-3/assets/images/markers/custom/example-custom-pin.png');
+myCustomIcon.setIconUrl('http://cdn.mapfit.com/v2-4/assets/images/markers/custom/example-custom-pin.png');
 myCustomIcon.setWidth(58);
 myCustomIcon.setHeight(65);
 myAddressMarker.setIcon(myCustomIcon);
